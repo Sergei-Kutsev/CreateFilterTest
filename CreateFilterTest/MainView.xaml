@@ -1,0 +1,20 @@
+﻿<Window x:Class="CreateFilterTest.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CreateFilterTest"
+             mc:Ignorable="d" 
+             Title="Назначить фильтр для видов"
+             Height="400" Width="400"
+             WindowStartupLocation="CenterScreen">
+    
+    <StackPanel>
+        <!--<Label Content="Выберите параметр по которому необходимо фильтровать" HorizontalAlignment="Center"/>
+        <ComboBox SelectedIndex="{Binding SelectedParameter1}"/>
+        <Label Content="Введите значение параметра" HorizontalAlignment="Center"/>-->
+
+        <Button Content="Получить ID" Command="{Binding SelectedParameter1}"/>
+
+    </StackPanel>
+</Window>
